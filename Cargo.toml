@@ -1,0 +1,12 @@
+[package]
+edition = "2021"
+name = "thirdparty-ucan"
+version = "0.1.0"
+
+[dependencies]
+did-key = "0.2" 
+ed25519-zebra = "3.1" # To match the dependency of ucan-key-support
+serde_json = "1.0" 
+tokio = {version = "1.0", features = ["full"]} 
+ucan = "0.4" 
+ucan-key-support = "0.1"
